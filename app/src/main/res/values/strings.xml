@@ -1,0 +1,346 @@
+<!--
+  ~ Copyright [2016] [UFMS]
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">UFMS App</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="filter_event">Filtrar</string>
+    <string name="search_event">Buscar</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="txt1">Welcome</string>
+    <string name="txt2">Henrique</string>
+    <string name="txt3">luizhsda@gmail.com</string>
+    <string name="evento_first_item_content_description">Imagem de descrição do evento</string>
+    <string name="txt_image_content_description">Imagem do usuário</string>
+
+    <string name="txt_drawer_evento">Eventos</string>
+    <string name="txt_drawer_disciplina">Disciplina</string>
+    <string name="txt_drawer_notas">Notas</string>
+    <string name="txt_drawer_curso">Curso</string>
+    <string name="txt_drawer_config">Configuração</string>
+    <string name="txt_drawer_ajuda">Ajuda &amp; feedback</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_drawer_explore">Explore</string>
+    <string name="txt_sobre">Sobre</string>
+    <string name="txt_feedback">Feedback</string>
+    <string name="txt_card_title">Card Group Imagem</string>
+    <string name="txt_content_description_evento">Imagem do evento</string>
+    <string name="txt_description_disciplina">Imagem da disciplina</string>
+    <string name="txt_content_description_no_connection">Ícone sem conexão com internet</string>
+    <string name="txt_content_description_no_upload">Ícone Evento sem Anexo</string>
+
+    <string name="txt_detalhe_evento">Detalhes do Evento</string>
+
+    <string name="txt_sem_eventos_lista">Nenhum evento disponível</string>
+    <string name="txt_sem_anexos_lista">Nenhum anexo disponível</string>
+    <string name="txt_sem_disciplinas_lista">Suas disciplinas irão aparecer aqui</string>
+
+    <string name="txt_no_connection_msg">Sem conexão com a Internet</string>
+    <string name="txt_retry_connection">Tentar</string>
+
+    <string name="txt_notificacao_eventos">Novo Evento Adicionado</string>
+    <string name="txt_notificacao_disciplinas">Nova(s) Disciplina(s) Cadastrada(s)</string>
+    <string name="txt_notificacao_notas">Nova(s) Nota(s) Adicionada(s)</string>
+
+    <string name="gcm_nao_suportado">Aparelho não compatível com o GCM.</string>
+
+    <string name="txt_search_hint">Buscar</string>
+    <string name="txt_cd_detalhes_evento">Detalhes Evento Imagem</string>
+    <string name="txt_disciplina_no_content">Nenhuma disciplina disponível</string>
+    <string name="txt_notas_no_content">Suas notas irão aparecer aqui</string>
+    <string name="txt_notas_not_available">Notas não disponíveis no momento</string>
+    <string name="txt_explore_disciplina_ver">VER</string>
+    <string name="txt_content_description_disciplina">Tipo de disciplina detalhes</string>
+    <string name="txt_rating_count">Número de usuários rating</string>
+
+    <string name="evento_details_evento">Evento</string>
+    <string name="evento_details_disciplina">Disciplina</string>
+    <string name="evento_details_anexo">Anexo(s)</string>
+
+    <string name="evento_detail_deadline_icon">Data Limite Evento Icon</string>
+
+    <string name="evento_detail_notification_title">Notificações</string>
+    <string name="evento_detail_notification_disable">Desativar notificações para esta disciplina</string>
+    <string name="txt_download_finalizado">Download finalizado.</string>
+    <string name="txt_download_em_progresso">Download em progresso &#8230;</string>
+    <string name="txt_download_error">"Download error: "</string>
+    <string name="txt_dialog_msg">Deseja avaliar esta disciplina?</string>
+    <string name="txt_dialog_msg_edit">Deseja editar sua avaliação?</string>
+    <string name="txt_disciplina_rating_status">Você ainda não avaliou esta disciplina.</string>
+    <string name="txt_cancel">Cancelar</string>
+    <string name="txt_avaliar">Avaliar</string>
+    <string name="txt_editar">Editar</string>
+    <string name="txt_rated_success">Avaliação gravada com sucesso.</string>
+    <string name="txt_rated_edit_success">Avaliação editada com sucesso.</string>
+    <string name="txt_rated_not_allowed">Selecione uma nota diferente para a avaliação.</string>
+    <string name="txt_content_description_avaliacao">Editar Avaliação da Disciplina</string>
+    <string name="txt_no_upload">Nenhum anexo disponivel</string>
+    <string name="txt_no_upload_available">Nenhum anexo disponível.</string>
+    <string name="txt_no_student">Nenhum aluno matriculado.</string>
+    <string name="txt_content_description_no_student">Ícone sem Aluno Cadastrado</string>
+    <string name="txt_success_download_snack_bar">Download finalizado com sucesso.</string>
+    <string name="txt_nota_icone_content_description">Ícone nota do usuário</string>
+    <string name="nota_atividade_content_description">Ícone nota atividade</string>
+    <string name="txt_no_disciplina_nota">Disciplinas com notas disponíveis vão aparecer aqui.</string>
+    <string name="txt_atividade_empty">Suas notas irão aparecer aqui.</string>
+
+    <bool name="sound_def_value">true</bool>
+    <bool name="notification_def_value">true</bool>
+    <bool name="download_def_value">true</bool>
+
+
+    <integer-array name="colors">
+        <item name="color1">@color/green</item>
+        <item name="color2">@color/blue</item>
+        <item name="color3">@color/yellow</item>
+    </integer-array>
+
+
+    <string-array name="tabs">
+        <item>Informações</item>
+        <item>Alunos</item>
+        <item>Materiais</item>
+    </string-array>
+
+    <string-array name="tabs_eventos">
+        <item>Evento</item>
+        <item>Anexos</item>
+    </string-array>
+
+    <string-array name="week_days">
+        <item>Dom</item>
+        <item>Seg</item>
+        <item>Ter</item>
+        <item>Qua</item>
+        <item>Qui</item>
+        <item>Sex</item>
+        <item>Sáb</item>
+    </string-array>
+
+    <string-array name="rating_desc_items">
+        <item>Péssimo</item>
+        <item>Não gostei</item>
+        <item>Mais ou menos</item>
+        <item>Bom</item>
+        <item>Excelente</item>
+    </string-array>
+    <string name="title_activity_login">Login</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha (min 6 caracteres)</string>
+    <string name="txt_create_account">Criar uma conta</string>
+    <string name="txt_entrar">Entrar</string>
+    <string name="txt_content_description_logo_login">Logo do app tela de login</string>
+    <string name="title_activity_registrar">RegistrarActivity</string>
+    <string name="txt_hint_nome">Nome</string>
+    <string name="txt_hint_rga">RGA</string>
+    <string name="txt_button_registrar">Registrar</string>
+    <string name="txt_button_go_to_login">Já possui conta? Entrar</string>
+    <string name="txt_content_description_senha">Mostrar/Esconder senha</string>
+    <string name="txt_foto_opt">Foto (opcional)</string>
+    <string name="txt_download_file">Icone de baixar arquivo.</string>
+    <string name="txt_open_document">Abrir</string>
+    <string name="txt_mark_as_not_read">Marcar como não lido</string>
+    <string name="txt_favorite">Favoritar</string>
+    <string name="txt_busca">Buscar</string>
+    <string name="txt_sobre_menu_config">Sobre</string>
+    <string name="txt_send_feedback">Enviar Feedback</string>
+    <string name="pref_notification_enable">pref_key_receber_notificacao</string>
+    <string name="pref_notification_sound">pref_key_ativar_som_notificacao</string>
+    <string name="pref_network_type">pref_key_download_network</string>
+    <string name="pref_logout_app">pref_logout_app</string>
+    <string name="txt_logout">Sair</string>
+    <string name="txt_only_wifi">Baixar arquivos somente via Wi-Fi</string>
+    <string name="txt_receive_notification">Receber notificações do aplicativo</string>
+    <string name="txt_activate_sound">Ativar som da notificação</string>
+    <string name="txt_enable_notifications">Ativar notificações</string>
+    <string name="txt_pref_sound_summary_off">O som das notificações foram desativados</string>
+    <string name="txt_pref_sound_summary_on">Você receberá alertas sonoros ao receber uma notificação</string>
+    <string name="txt_category_notification">Notificações</string>
+    <string name="txt_category_download">Download</string>
+    <string name="txt_settings_activity">Configuracões</string>
+    <string name="txt_wifi_only_snackbar">Você precisa estar conectado via WIFI</string>
+    <string name="txt_login_invalido">Login Inválido</string>
+    <string name="txt_invalid_registrar">Email ou RGA já existem</string>
+    <string name="txt_registrar_error">Erro ao registrar usuário</string>
+    <string name="txt_type_name">Por favor, digite seu nome</string>
+    <string name="txt_registrar_type_email">Por favor, digite um email</string>
+    <string name="txt_registrar_type_valid_email">Por favor, digite um email válido. Geralmente inclui um caractere \'@\'</string>
+    <string name="txt_registrar_valid_rga">Por favor, digite um RGA válido com 12 dígitos</string>
+    <string name="txt_registrar_type_password">Por favor, digite uma senha</string>
+    <string name="txt_registrar_min_chars_password">Sua senha deve conter no mínimo 6 caracteres</string>
+    <string name="txt_calendar_view">Ver calendário</string>
+    <string name="txt_list_view">Ver lista de eventos</string>
+    <string name="txt_pref_sobre">Sobre</string>
+    <string name="pref_app_license">key_pref_license</string>
+    <string name="pref_app_version">key_pref_version</string>
+    <string name="txt_app_version">1.0.0</string>
+    <string name="txt_app_license">Apache License Version 2.0</string>
+    <string name="txt_app_license_title">Licença</string>
+    <string name="txt_action_github">GitHub</string>
+    <string name="title_activity_license">Licença</string>
+
+
+    <string name="license_terms_and_agreement"><![CDATA[
+                TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+                <br/><br/>
+                <p>1. Definitions.
+                "License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+
+                "Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+
+                "Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+
+                "You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.
+
+                "Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+
+                "Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+
+                "Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+
+                "Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+
+                "Contribution" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution."
+
+                "Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.</p>
+
+                 <br/><p>2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.</p>
+
+                 <br/><p>3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.</p>
+
+                 <br/><p>4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+
+                You must give any other recipients of the Work or Derivative Works a copy of this License; and
+                You must cause any modified files to carry prominent notices stating that You changed the files; and
+                You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and
+                If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+
+                You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.</p>
+                 <br/><br/><p>5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.</p>
+
+                 <br/><p>6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.</p>
+
+                 <br/><p>7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.</p>
+
+                 <br/><p>8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.</p>
+
+                 <br/><p>9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.</p>
+
+                END OF TERMS AND CONDITIONS]]></string>
+    <string name="txt_apache_title">Apache License</string>
+    <string name="txt_apache_license_subtitle">Version 2.0, January 2004</string>
+    <string name="title_activity_feedback">FeedbackActivity</string>
+    <string name="txt_feedback_subtitle">Nos ajude a aprimorar UFMS App enviando esta mensagem contando sua experiência ao usar nosso produto.</string>
+    <string name="txt_feedback_title">Feedback do usuário</string>
+    <string name="txt_content_description_feeback">Mensagem de feedback logo</string>
+    <string name="email_feedback_input_hint">Digite o seu email</string>
+    <string name="message_feedback_input_hint">Escreva sua mensagem de feedback</string>
+    <string name="txt_feedback_menu">Enviar</string>
+    <string name="txt_feedback_message_empty">Por favor, digite sua mensagem de feedback</string>
+    <string name="txt_feedback_message_success">Mensagem enviada com sucesso</string>
+    <string name="txt_send_feedback_error">Erro ao enviar mensagem</string>
+    <string name="title_activity_curso">CursoActivity</string>
+    <string name="txt_cd_curso">Detalhe curso imagem</string>
+    <string name="txt_course_name_detalhe">Sistemas de Informação</string>
+    <string name="txt_detalhes_do_curso">Detalhes do Curso</string>
+    <string name="txt_detalhes_curso_codigo">Código</string>
+    <string name="txt_detalhes_curso_ch">Carga Horária</string>
+    <string name="txt_detalhes_curso_periodo">Período</string>
+    <string name="txt_detalhes_curso_area">Área</string>
+    <string name="txt_detalhes_curso_exatas">Exatas</string>
+    <string name="txt_detalhes_curso_integral">Integral</string>
+    <string name="txt_detalhes_curso_horas">3060 horas</string>
+    <string name="txt_detalhes_curso_codigo_desc">0570</string>
+    <string name="title_activity_graficos">Desempenho</string>
+    <string name="txt_desempenho_view">Desempenho View</string>
+    <string name="txt_list_view_menu">List View</string>
+    <string name="txt_media_individual_chart">Média Individual</string>
+    <string name="txt_media_turma_chart">Média da Turma</string>
+    <string name="txt_comparativo_notas">Comparativo de Notas</string>
+    <string name="txt_comparativo_notas_desc">O gráfico em barras compara sua nota nesta atividade com a média da turma para esta mesma atividade.</string>
+    <string name="txt_historico_notas">Histórico de Notas</string>
+    <string name="txt_historico_notas_desc">Este gráfico representa a evolução das suas notas em um período de tempo.</string>
+    <string name="txt_maior_nota">Maior Nota</string>
+    <string name="txt_maior_nota_desc">Este gráfico representa suas notas em ordem decrescente em um determinado período de tempo.</string>
+    <string name="txt_empty_card_explore">Explore</string>
+    <string name="txt_empty_card_explore_text">Seus eventos recentes e suas disciplinas irão aparecer aqui quando estiverem disponíveis. Faça um tour através do menu lateral para ter acesso a outras seções do aplicativo.</string>
+    <string name="txt_cd_left_image_empty_card">Imagem lateral explore card</string>
+    <string name="txt_menu_maior_nota">Maior Nota...</string>
+    <string name="txt_menu_historico_de_notas">Histórico de notas...</string>
+    <string name="txt_menu_comparativo_notas">Comparativo de notas...</string>
+    <string name="txt_cd_nav_background">Menu de navegação background</string>
+    <string name="txt_fake_detalhes">Detalhes</string>
+    <string name="txt_fake_disciplina_desc"><![CDATA[Organização de Arquivos. Introdução a Banco de Dados. Modelagem de Banco de Dados Relacional. Banco de Dados Relacionais. Mapeamento Objeto-Relacional. Processamento Transacional. Controle de Concorrência. Fundamentos de SQL.
+        <br/><br/>
+        <strong>Introdução a Banco de Dados</strong>
+        <br/>
+        Conceito e Objetivos
+
+        <br/>
+        Sistemas e Modelos de Dados de Banco de Dados: Hierárquico, Rede, Relacional, Orientado a Objetos
+
+        <br/>
+        Sistemas Gerenciadores de Banco de Dados: definição, funções, catálogo, arquitetura e usuários
+
+        <br/><br/>
+        <strong>Modelagem de Dados</strong>
+        <br/>Definição
+        <br/>Modelo de Dados
+       <br/> Modelo Entidade-Relacionamento (MER)
+        <br/>Componentes: Relacionamentos, Atributos e Entidades
+       <br/> Tuplas e Domínios
+        <br/>Normalização
+        <br/>Simplicidade dos Dados, Dependência Funcional, Estruturas Complexas e Anomalias
+        <br/>Formas Normais
+        <br/>Desnormalização
+        <br/><br/>
+        <strong>Banco de Dados Relacional</strong>
+        <br/>Modelo Relacional
+        <br/>Álgebra Relacional
+        <br/>Cálculo Relacional de Tuplas e Domínios
+        <br/><br/>
+        <strong>Linguagem SQL</strong>
+        <br/>Conceito
+        <br/>Linguagem de Definição de Dados (DDL)
+        <br/>Linguagem de Manipulação de Dados (DML)
+        <br/>Linguagem de Controle de Dados (DCL)
+        <br/><br/><strong>Aplicações e Estudos de Banco de Dados</strong>
+        <br/>SGBD Relacionais: MySQL, PostgreSQL, Microsoft SQL Server, Oracle, DB2
+        <br/>Base de Dados e Esquemas de Dados
+        <br/>Segurança de SGBD:
+        <br/>Acesso e restrições ao sistema: Autenticação e autorização
+        <br/>Injeção de comandos SQL (SQL Injection)
+       <br/> Ferramentas CASE
+        <br/>Criação de aplicação com acesso a Banco de Dados]]>
+    </string>
+    <string name="txt_fake_turma">2015/2</string>
+    <string name="txt_fake_ementa">Ementa</string>
+    <string name="txt_fake_tipo_disciplina">Tipo da Disciplina</string>
+    <string name="txt_obr">OBR</string>
+    <string name="txt_fake_professor">Professor</string>
+    <string name="txt_professor">Luciano Édipo</string>
+    <string name="txt_rate_disciplina">Avalie esta disciplina</string>
+    <string name="txt_rate_button">Avaliar</string>
+
+
+</resources>
