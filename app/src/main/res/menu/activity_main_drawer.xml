@@ -10,28 +10,32 @@
             android:id="@+id/nav_drawer_explore"
             android:checked="true"
             android:icon="@mipmap/ic_explore_black_24dp"
-            android:title="Test" />
+            android:title="Menu Principal" />
 
         <item
             android:id="@+id/nav_drawer_eventos"
             android:icon="@mipmap/ic_explore_black_24dp"
-            android:title="Test" />
+            android:title="Alunos" />
+
+        <item
+            android:id="@+id/nav_drawer_notas"
+            android:icon="@mipmap/ic_explore_black_24dp"
+            android:title="Assistentes Sociais" />
 
 
         <item
             android:id="@+id/nav_drawer_disciplina"
             android:icon="@mipmap/ic_explore_black_24dp"
-            android:title="Test" />
+            android:title="Coordenadores" />
 
         <item
-            android:id="@+id/nav_drawer_notas"
             android:icon="@mipmap/ic_explore_black_24dp"
-            android:title="Test" />
+            android:title="Professores" />
 
         <item
             android:id="@+id/nav_drawer_curso"
             android:icon="@mipmap/ic_explore_black_24dp"
-            android:title="Test" />
+            android:title="Psicólogos" />
     </group>
 
 

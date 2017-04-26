@@ -17,6 +17,7 @@
 <resources>
     <string name="app_name">UFMS App</string>
     <string name="action_settings">Settings</string>
+    <string name="esqceu"><u>Esqueceu a senha?</u></string>
 
     <string name="filter_event">Filtrar</string>
     <string name="search_event">Buscar</string>
